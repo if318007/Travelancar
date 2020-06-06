@@ -1,0 +1,10 @@
+CREATE DATABASE bank
+USE bank
+CREATE TABLE akun(
+username VARCHAR(50) PRIMARY KEY NOT NULL ,
+PASSWORD VARCHAR(50)NOT NULL,
+nama VARCHAR(50));
+
+DROP TABLE akun
+INSERT INTO akun VALUES( 'winda@gmail.com', '12345', 'Winda Lorenza Sinurat');
+SELECT * FROM akun
